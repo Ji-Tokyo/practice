@@ -93,11 +93,12 @@
 
 .hover-heart:hover {
     color: blue!important;
+    outline: none!important;
 }
 
 .card {
     width: 250px!important;
-    max-height: 400px;
+    
     overflow: hidden;
     border: 1px solid white!important;
 }
@@ -109,4 +110,13 @@
 
 .w-ft {
     width: fit-content;
+}
+
+
+.nav-link {
+    padding: 8px 8px !important;
+
+}
+.hover-heart {
+    outline: none!important;
 }
